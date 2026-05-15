@@ -157,7 +157,7 @@ function MinimalHero() {
         <div className="absolute bottom-0 left-0 w-1/2 h-full opacity-5" style={{ background: `radial-gradient(ellipse at bottom left, ${accentColor}, transparent 60%)` }} />
       </div>
 
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-24">
         <div className="inline-flex items-center gap-3 mb-10 px-5 py-2 rounded-full" style={{ border: `1px solid ${accentColor}33`, backgroundColor: `${accentColor}0d` }}>
           <div className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: accentColor }} />
           <p className="font-[family-name:var(--font-inter)] text-xs tracking-[0.3em] uppercase" style={{ color: accentColor }}>{hero.eyebrow}</p>
