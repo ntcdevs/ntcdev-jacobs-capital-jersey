@@ -133,7 +133,7 @@
   },
   "images": {
     "hero": "other/hero-01.jpg",
-    "about": "other/shop-01.jpg",
+    "about": "https://ubhmaudibilphahbrtyc.supabase.co/storage/v1/object/public/lead-assets/de9dc677-89e7-425e-b2c2-858c403f6c76/about/tailor-made.jpg",
     "gallery": [
       "other/shop-01.jpg",
       "other/shop-02.jpg",
