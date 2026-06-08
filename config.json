@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "JACOBS CAPITAL JERSEY",
+    "city": "St Helier",
+    "category": "other",
+    "phone": "",
+    "email": "egal@mammut.com",
+    "address": "14 King Street, St Helier, Jersey JE2 4TR"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
+    "variant": "minimal",
+    "eyebrow": "Profesjonell Rådgivning · St Helier",
+    "headline": "Jacobs",
+    "headlineAccent": "Capital Jersey",
+    "subheadline": "Vi leverer skreddersydde løsninger med kvalitet og engasjement – din pålitelige partner for vekst og suksess i St Helier.",
+    "ctaText": "Kontakt Oss",
     "ctaSecondary": "Se Tjenester"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Dedikert service"
+      },
+      {
+        "value": "6",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Ta Kontakt for Mer Info",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Strategisk Rådgivning",
+        "desc": "Vi tilbyr profesjonell rådgivning tilpasset dine behov, slik at du kan ta informerte beslutninger med trygghet.",
+        "icon": "Shield",
+        "price": ""
+      },
+      {
+        "name": "Prosjektledelse",
+        "desc": "Effektiv planlegging og gjennomføring av prosjekter fra start til mål med fokus på kvalitet og tidsfrister.",
+        "icon": "Zap",
+        "price": ""
+      },
+      {
+        "name": "Kundetilpassede Løsninger",
+        "desc": "Skreddersydde tjenester som er utviklet spesielt for å møte din virksomhets unike utfordringer og mål.",
+        "icon": "Star",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
     "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "body": "Jacobs Capital Jersey ble grunnlagt med en visjon om å levere førsteklasses tjenester til kunder i St Helier og omegn. Med et dedikert team og mange års erfaring har vi bygget et sterkt omdømme basert på tillit, kvalitet og personlig oppfølging. Vår lidenskap er å hjelpe kunder med å nå sine mål – hver eneste dag.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Kunder betjent"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Kundetilfredshet"
+    }
   },
   "gallery": {
     "eyebrow": "Portefølje",
     "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "subheading": "Se et utvalg av prosjekter og resultater vi har levert for våre kunder."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Erik Johansen",
+        "role": "Fast kunde siden 2020",
+        "text": "Jacobs Capital Jersey har vært en fantastisk partner for oss. Profesjonell service og alltid tilgjengelig når vi trenger dem.",
+        "rating": 5
+      },
+      {
+        "name": "Marte Solberg",
+        "role": "Ny kunde",
+        "text": "Jeg ble imponert over kvaliteten og oppfølgingen fra første kontakt. Anbefales på det varmeste til alle som søker pålitelig hjelp.",
+        "rating": 5
+      },
+      {
+        "name": "Anders Kristiansen",
+        "role": "Fast kunde siden 2019",
+        "text": "Teamet hos Jacobs Capital leverer konsekvent gode resultater. De forstår våre behov og overgår alltid forventningene.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Vi ser frem til å høre fra deg – send oss en melding eller ring for en uforpliktende samtale."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
